@@ -53,4 +53,39 @@
 .screenshot-action{display:flex;align-items:center;justify-content:flex-end;gap:12px;border-top:1px solid var(--line);padding:12px 16px;font-size:11px;font-weight:600;color:var(--green)}
 @media(max-width:1000px){.jobops-gallery{padding:28px}}
 @media(max-width:720px){.jobops-gallery{padding:26px}.gallery-heading h4{font-size:25px}.screenshot-action{justify-content:flex-start}.screenshot-figure h5{font-size:14px}}
+/* Dedicated case-study styles are scoped to preserve the homepage layout. */
+.case-study-page .case-hero{padding-block:64px 48px}
+.case-study-page .case-back{margin-bottom:30px}
+.case-study-page .case-hero h1{max-width:980px;font-size:clamp(38px,4.8vw,64px);margin-bottom:22px}
+.case-study-page .case-byline{font-size:12px;color:var(--green);margin-bottom:24px}
+.case-study-page .case-introduction{font-size:17px;max-width:880px;line-height:1.7;margin-bottom:28px}
+.case-study-page .case-summary{display:grid;grid-template-columns:1fr 1fr;max-width:780px;border:1px solid var(--line);background:var(--soft);border-radius:3px;margin:0}
+.case-study-page .case-summary>div{padding:26px 32px;min-width:0}
+.case-study-page .case-summary>div+div{border-left:1px solid var(--line)}
+.case-study-page .case-summary dt{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--green);margin-bottom:12px}
+.case-study-page .case-summary dd{font-family:var(--serif);font-size:48px;letter-spacing:-.035em;line-height:1.2;margin:0;color:var(--green)}
+.case-study-page .case-summary dd>span{display:block;font-family:var(--sans);font-size:12px;color:var(--muted);letter-spacing:0;line-height:1.6;margin-top:8px}
+.case-study-page .case-measurement{font-size:12px;line-height:1.7;color:var(--muted);max-width:780px;margin:18px 0 0}
+.case-study-page .case-workflow{padding-block:0 48px}
+.case-study-page .case-workflow h2{font-size:30px;margin-bottom:22px}
+.case-study-page .workflow-steps{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:20px;list-style:none;padding:0;margin:0}
+.case-study-page .workflow-steps li{position:relative;padding:18px 16px;min-width:0;background:var(--soft);border:1px solid var(--line);border-radius:3px}
+.case-study-page .workflow-steps li:not(:last-child)::after{content:'→';position:absolute;right:-17px;top:50%;transform:translateY(-50%);font-size:15px;color:var(--green)}
+.case-study-page .workflow-steps span{display:block;color:var(--green);font-size:10px;letter-spacing:.08em;margin-bottom:12px}
+.case-study-page .workflow-steps strong{font-size:13px;font-weight:500;line-height:1.4;display:block}
+.case-study-page .case-sections{padding-bottom:64px}
+.case-study-page .case-section{display:grid;grid-template-columns:1fr 2.4fr;gap:60px;padding-block:36px;border-top:1px solid var(--line)}
+.case-study-page .case-section h2{font-size:32px}
+.case-study-page .case-section .eyebrow{font-size:10px;margin-bottom:16px}
+.case-study-page .case-prose{max-width:760px;min-width:0}
+.case-study-page .case-prose p,.case-study-page .case-prose li{font-size:15px;color:var(--muted);line-height:1.8}
+.case-study-page .case-prose strong{color:var(--ink)}
+.case-study-page .case-prose ul{padding-left:22px}
+.case-study-page .case-prose li+li{margin-top:12px}
+.case-study-page .case-prose h3{font-size:17px;margin:30px 0 14px}
+.case-study-page .case-prose h3:first-child{margin-top:0}
+.case-study-page .case-prose p:last-child{margin-bottom:0}
+.case-study-page .case-sections>.text-link{margin-top:22px}
+@media(max-width:1000px){.case-study-page .workflow-steps{grid-template-columns:repeat(3,minmax(0,1fr))}.case-study-page .workflow-steps li:nth-child(3)::after{content:none}.case-study-page .case-section{gap:36px}}
+@media(max-width:720px){.case-study-page .case-hero{padding-block:40px 32px}.case-study-page .case-introduction{font-size:15px}.case-study-page .case-summary>div{padding:20px}.case-study-page .case-summary dd{font-size:36px}.case-study-page .workflow-steps{grid-template-columns:1fr;gap:22px}.case-study-page .workflow-steps li{display:flex;align-items:center;gap:18px;padding:16px 20px}.case-study-page .workflow-steps span{margin-bottom:0;flex-shrink:0}.case-study-page .workflow-steps li:not(:last-child)::after{content:'↓';left:50%;right:auto;top:auto;bottom:-23px;transform:translateX(-50%)}.case-study-page .case-section{grid-template-columns:1fr;gap:20px;padding-block:28px}.case-study-page .case-section h2{font-size:30px}.case-study-page .case-sections{padding-bottom:40px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}.button:hover{transform:none}}

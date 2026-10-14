@@ -1,16 +1,19 @@
 # Brian Wilhite — Professional Portfolio
 
-A light, responsive, single-page portfolio for business operations, strategy, and implementation leadership. Built for GitHub Pages with HTML, CSS, and a small optional JavaScript enhancement. No build step, packages, external fonts, or runtime services are required.
+A light, responsive portfolio homepage and dedicated case-study page for business operations, strategy, and implementation leadership. Built for GitHub Pages with HTML, CSS, and a small optional JavaScript enhancement. No build step, packages, external fonts, or runtime services are required.
 
 ## Preview
 
 Open `index.html` directly in a browser. All assets are relative and navigation works without JavaScript. Check the layout at desktop and mobile widths and navigate with a keyboard.
+
+Open `repurpose-house.html` directly to review the new case study, or serve the repository with `python -m http.server 8000` and visit `http://localhost:8000/repurpose-house.html` if Python is on your PATH. There are no configured lint, test, or build scripts. Use `git diff --check` and browser/link checks for static-site validation.
 
 The content revision was visually reviewed in Chrome at desktop and mobile widths. Browser checks passed at seven frame widths from 320 to 1440 pixels, including no horizontal overflow, matching project-card widths, loaded CSS/JavaScript, valid accessible labels, and section navigation that clears the sticky header. HTML structure, local assets, verified external URLs, primary text color contrast, focus styles, reduced-motion support, and whitespace checks also passed. These are portfolio checks, not a rerun of the JobOps tests or an independent audit of the supplied business results.
 
 ## Files
 
 - `index.html`: professional positioning, capabilities, selected work, approach, and LinkedIn/GitHub links.
+- `repurpose-house.html`: “Reducing Client Onboarding Time Without Adding Headcount,” linked from the homepage; shares the existing stylesheet, favicon, navigation, and footer-year script.
 - `styles.css`: responsive layout, typography, colors, focus states, and reduced-motion support.
 - `script.js`: current footer year.
 - `assets/favicon.svg`: initials favicon.
@@ -30,6 +33,8 @@ The JobOps gallery shows Brian's actual application populated with fictional job
 Prestige Cleaning: Operations Transformation and JobOps use matching project cards. Prestige's August–October 2026 initiative, four workstreams, and measured results come from Brian's brief. Metrics retain their early-stage service-line context: revenue growth from a small base; acquisition costs distinguished as media-only versus agency-inclusive; contribution margin after direct labor, including paid owner field labor, and materials. The training comparison distinguishes routine cleaning from complex deep-cleaning work and does not claim controlled measurement. Private revenue, expenses, retainer amounts, cash balances, and future plans are omitted.
 
 Professional background includes Prestige Cleaning Arizona LLC — Owner, and Repurpose House — Implementation / Onboarding Management, including the supplied onboarding-duration change. No employment dates, team sizes, or additional titles are invented.
+
+The dedicated Repurpose House page uses Brian's supplied `Repurpose_House_Approved_Case_Study.md` narrative. The source document remains outside this repository. The tracked approximate ranges are 12–14 business days before and 7–9 business days after, from signing to package-specific initial delivery: delivered, approved, and scheduled for publishing packages, or first assets provided for packages without publishing. The work is credited to a cross-functional team, PCOT is identified as pre-existing, and Zapier configuration is not personally attributed to Brian. No additional numerical outcomes or the later separate productivity result are included. The workflow is explicitly labeled as a reconstructed illustration, not an original company record.
 
 The completed three-page Prestige PDF is available at `assets/documents/prestige-operations-case-study.pdf`, verified as nonempty with all three pages opened and rendered. Its project card links to the actual file with “Read the full case study”, opening in a new tab. Document instructions are in `assets/documents/README.md`.
 
